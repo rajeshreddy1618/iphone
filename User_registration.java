@@ -26,8 +26,7 @@ public class User_registration {
 		driver.findElement(By.id("MemberName")).clear();
 		driver.findElement(By.id("MemberName")).sendKeys("newuserwebdriver123456");
 		
-		driver.findElement(By.id("MemberName")).click();
-		Thread.sleep(4000);
+
 		
 		
 		
